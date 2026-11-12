@@ -4,6 +4,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
 import Header from "./header.tsx"
+import SideBar from './sidebar.tsx'
 
 function App() {
   
@@ -12,6 +13,7 @@ function App() {
     <div className='bg-black h-screen' >
       <div>
      <Header/>
+     <SideBar/>
       </div>
      
     </div>

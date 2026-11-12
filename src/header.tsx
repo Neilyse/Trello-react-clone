@@ -5,7 +5,7 @@ function Header(){
         <div className=" flex flex-row py-2.5 gap-3 justify-between border-b-1 border-gray-500">
             <div className="flex gap-3">
                  <LayoutGrid color="#817979" size={26} /> 
-            <img src="src\assets\trello.jpg" className="w-5 h-6" ></img>
+            <img src="src\assets\trello.jpg" className="w-7 h-6" ></img>
             </div>
             <div className="flex ml-8">
            <div className=" flex  gap-3">
