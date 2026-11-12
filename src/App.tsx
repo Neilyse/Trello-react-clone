@@ -5,6 +5,7 @@ import viteLogo from './assets/vite.svg'
 import './App.css'
 import Header from "./header.tsx"
 import SideBar from './sidebar.tsx'
+import Body from './body.tsx'
 
 function App() {
   
@@ -13,7 +14,11 @@ function App() {
     <div className='bg-black h-screen' >
       <div>
      <Header/>
+     <section className=' flex flex-row gap-16'>
      <SideBar/>
+     <Body/>
+     </section>
+    
       </div>
      
     </div>
